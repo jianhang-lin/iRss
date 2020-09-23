@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./db/irss-server-demo;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1
+  h2:
+    console:
+      enabled: true
